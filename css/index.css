@@ -9,10 +9,13 @@ body {
     font-size: 14px;
 }
 
+header {
+    border-bottom: 2px solid rgba(0,0,0,.15);
+}
+
 header ._inner {
     display: flex;
     height: 58px;
-    border-bottom: 2px solid rgba(0,0,0,.15);
 }
 
 header a {
