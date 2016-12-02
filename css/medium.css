@@ -1,52 +1,67 @@
 header ._inner {
-    height: 86px;
+    height: 122px;
 }
 
 header .logo {
     width: 56px;
     height: 56px;
-    /*display: initial;*/
 }
 
 header .content_text h4 {
     display: initial;
-    font-weight: 400px;
+    font-weight: 400;
+    font-size: 1.75em;
     opacity: 0.75;
 }
 
 header .content_text h1 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 header {
     margin-bottom: 8px;
 }
 
+header a {
+  padding: 16px;
+  margin: auto;
+}
+
 .jumbotron {
     padding: 16px;
 }
 
-section {
+.featured_works {
     flex-wrap: nowrap;
     padding: 16px;
 }
 
-section article {
+.featured_works article picture {
+  width: 100%;
+}
+
+.featured_works article {
     width: calc((100% - 20px) / 3);
     flex-direction: column;
     margin-right: 10px;
     margin-bottom: 0px;
+    height: 100%;
 }
 
-section article:last-child {
+.featured_works article:last-child {
     margin-right: 0px;
 }
 
-section article img, section article .content_text {
+.featured_works article img, .featured_works article .content_text {
     width: 100%;
 }
 
 h2 {
     text-align: left;
     margin: auto 16px auto 16px;
+    font-size: 2.5em;
+}
+
+article .content_text h3 {
+  font-size: 1.7em;
 }

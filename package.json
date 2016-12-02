@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio project with responsive images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarchang1226/portfolio.git"
+  },
+  "author": "oscarchang1226",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oscarchang1226/portfolio/issues"
+  },
+  "homepage": "https://github.com/oscarchang1226/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}

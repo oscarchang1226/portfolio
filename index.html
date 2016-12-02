@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Blah</title>
+        <title>Portfolio</title>
 
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="./css/index.css" rel="stylesheet" />
@@ -14,40 +14,88 @@
         <header>
             <div class="_inner">
                 <a target="_blank" href="https://www.udacity.com/">
-                    <img alt="Udacity Logo" class="logo" src="./assets/udacity.svg"/>
+                  <img alt="Udacity Logo" class="logo" src="./images/udacity.svg"/>
                 </a>
                 <div class="content_text">
-                    <h1>Oscar TJ</h1>
-                    <h4>Front End Newbie</h4>
+                    <h1>OSCAR CHANG</h1>
+                    <h4>FRONT-END NEWBIE</h4>
                 </div>
             </div>
         </header>
         <main>
-            <img class="jumbotron" src="http://placehold.it/1280x800" alt="placeholder image for the large image"/>
-            <h2>Featured</h2>
-            <section>
+          <picture>
+            <source media="(max-width: 649px)"
+              srcset="./images/jumbotron-450_1x.jpg,
+                ./images/jumbotron-900_2x.jpg 2x,
+                ./images/jumbotron-1350_3x.jpg, 3x"
+            />
+            <source media="(min-width: 650px)"
+              srcset="./images/jumbotron-750_1x.jpg,
+                ./images/jumbotron-1500_2x.jpg 2x,
+                ./images/jumbotron-2250_3x.jpg, 3x"
+            />
+            <img class="jumbotron" src="./images/jumbotron-450_1x.jpg" alt="coral leaf looking plant"/>
+          </picture>
+            <h2>Featured Work</h2>
+            <section class="featured_works">
                 <article>
-                    <img src="http://placehold.it/1280x800" alt="placeholder image for the work image"/>
+                  <picture>
+                    <source media="(max-width: 649px)"
+                      srcset="./images/beach-240_1x.jpg,
+                        ./images/beach-480_2x.jpg 2x,
+                        ./images/beach-720_3x.jpg, 3x"
+                    />
+                    <source media="(min-width: 650px)"
+                      srcset="./images/beach-230_1x.jpg,
+                        ./images/beach-460_2x.jpg 2x,
+                        ./images/beach-690_3x.jpg, 3x"
+                    />
+                    <img src="./images/beach-240_1x.jpg" alt="Scenery at the beach"/>
+                  </picture>
                     <div class="content_text">
-                        <h3>Applify</h3>
+                        <h3>BEACH</h3>
+                        <p>http://github.com/oscarchang1226</p>
                     </div>
                 </article>
                 <article>
-                    <img src="http://placehold.it/1280x800" alt="placeholder image for the work image"/>
+                  <picture>
+                    <source media="(max-width: 649px)"
+                      srcset="./images/sky-240_1x.jpg,
+                        ./images/sky-480_2x.jpg 2x,
+                        ./images/sky-720_3x.jpg, 3x"
+                    />
+                    <source media="(min-width: 650px)"
+                      srcset="./images/sky-230_1x.jpg,
+                        ./images/sky-460_2x.jpg 2x,
+                        ./images/sky-690_3x.jpg, 3x"
+                    />
+                    <img src="./images/beach-240_1x.jpg" alt="View of the blue sky"/>
+                  </picture>
                     <div class="content_text">
-                        <h3>Coding</h3>
+                        <h3>SKY</h3>
+                        <p>http://github.com/oscarchang1226</p>
                     </div>
                 </article>
                 <article>
-                    <img src="http://placehold.it/1280x800" alt="placeholder image for the work image"/>
+                  <picture>
+                    <source media="(max-width: 649px)"
+                      srcset="./images/sand-240_1x.jpg,
+                        ./images/sand-480_2x.jpg 2x,
+                        ./images/sand-720_3x.jpg, 3x"
+                    />
+                    <source media="(min-width: 650px)"
+                      srcset="./images/sand-230_1x.jpg,
+                        ./images/sand-460_2x.jpg 2x,
+                        ./images/sand-690_3x.jpg, 3x"
+                    />
+                    <img src="./images/sand-240_1x.jpg" alt="picture of sand"/>
+                  </picture>
                     <div class="content_text">
-                        <h3>Learning</h3>
+                        <h3>SAND</h3>
+                        <p>http://github.com/oscarchang1226</p>
                     </div>
                 </article>
             </section>
         </main>
-        <footer>
-
-        </footer>
     </body>
 </html>
